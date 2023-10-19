@@ -1,48 +1,119 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <title>Mi Página Web</title>
+  <title>Mi Portafolio Personal</title>
+  <style>
+    /* Reset de estilos para el body */
+    body {
+    margin: 0;
+    padding: 0;
+    }
+
+    /* Estilos generales para los encabezados */
+    h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    }
+
+    /* Estilos para la sección de inicio */
+    #inicio {
+    padding: 50px;
+    background-color: #FFE6E6;
+    }
+
+    #inicio img {
+    width: 150px; /* Cambiar el ancho de la imagen según tu preferencia */
+    height: 206px; /* Cambiar la altura de la imagen según tu preferencia */
+    border-radius: 50%; /* Opcional: agregar bordes redondeados a la imagen */
+    }
+
+
+    /* Estilos para la sección de habilidades */
+    #habilidades {
+    padding: 50px;
+    background-color: #F2D1D1;
+    }
+
+    /* Estilos para la lista de habilidades */
+    #habilidades ul {
+    list-style-type: none;
+    }
+
+    /* Estilos para la sección de proyectos */
+    #proyectos {
+    padding: 50px;
+    background-color: #DAEAF1;
+    }
+
+    /* Estilos para la lista de proyectos */
+    #proyectos ul {
+    list-style-type: none;
+    }
+
+    /* Estilos para la sección de contacto */
+    #contacto {
+    padding: 50px;
+    background-color: #C6DCE4;
+    }
+
+    /* Estilos para la lista de contacto */
+    #contacto ul {
+    list-style-type: none;
+    }
+
+    /* Estilos generales para los párrafos y listas */
+    p, ul {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    }
+  </style>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <header>
-        <h1>Bienvenido a Mi Página Web</h1>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#acerca">Acerca de</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
+  <!-- Sección de inicio -->
+  <section id="inicio">
+    <img src="./imagenes/fotomia.jpg" alt="Imagen de cabecera">
+    <h1>Daniela Pardiñaz</h1>
+    <p>Apasionada programadora con experiencia en desarrollo web. Creativa, resolutiva y amante del código. Buscando desafíos emocionantes.</p>
+  </section>
 
-    <section id="inicio">
-        <h2>Inicio</h2>
-        <p>Bienvenido a nuestra página web. Esta es la sección de inicio.</p>
-    </section>
+  <!-- Sección de habilidades -->
+  <section id="habilidades">
+    <h2>Habilidades</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Typescript</li>
+    </ul>
+  </section>
 
-    <section id="acerca">
-        <h2>Acerca de Nosotros</h2>
-        <p>Somos una empresa dedicada a...</p>
-    </section>
+  <!-- Sección de proyectos -->
+  <section id="proyectos">
+    <h2>Proyectos</h2>
+    <ul>
+      <li>Nombre del Proyecto 1</li>
+      <li>Nombre del Proyecto 2</li>
+      <li>Nombre del Proyecto 3</li>
+      <!-- Puedes agregar más proyectos aquí -->
+    </ul>
+  </section>
 
-    <section id="servicios">
-        <h2>Nuestros Servicios</h2>
-        <ul>
-            <li>Servicio 1</li>
-            <li>Servicio 2</li>
-            <li>Servicio 3</li>
-        </ul>
-    </section>
+  <!-- Sección de contacto -->
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Puedes contactarme a través de los siguientes medios:</p>
+    <ul>
+      <li>Email: tu@email.com</li>
+      <li>Teléfono: +123456789</li>
+      <li>Instagram: Daniela Pardiñaz</li>
+    </ul>
+  </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Puedes contactarnos en <a href="mailto:info@example.com">info@example.com</a>.</p>
-    </section>
+  <!-- Puedes agregar más secciones según tus necesidades -->
 
-    <footer>
-        <p>Derechos de autor &copy; 2023 Mi Página Web</p>
-    </footer>
 </body>
 </html>
